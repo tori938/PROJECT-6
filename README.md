@@ -84,7 +84,6 @@ _Основные Задачи_:
 5. Построение Моделей Кластеризации и Анализ Качества с Помощью Внутренних Мер
    - снижение размерности через Principal Component Analysis:
      - K-Means, EM-Algorithm, Agglomerative Clustering, DBScan + Silhouette Score, Calinski-Harabasz, Davies-Bouldin
-       > лучшие внутренние показатели с 3 кластерами
    - снижение размерности через t-distributed stochastic neighbor embedding > отбор гиперпараметров через Optuna
      - K-Means, EM-Algorithm, Agglomerative Clustering + Silhouette Score, Calinski-Harabasz, Davies-Bouldin
        > лучшие внутренние показатели с 7 кластерами, больше соответствуют группам, предложенным RFM
@@ -99,7 +98,9 @@ _Основные Задачи_:
 
 ### Результат
 
-В результате лучшие результаты показали модели:
+Лучшие результаты внутренние мер на данных с PCA с 3 кластерами, Лучшие результаты внутренние мер на данных с t-SNE с 7 кластерами, больше соответствуют группам, предложенным RFM.
+
+Результаты моделей классификации:
 
     - Random Forest: F1-Score = 0.99
     - Gradient Boosting: F1-Score = 0.99
