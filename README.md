@@ -86,7 +86,6 @@ _Основные Задачи_:
      - K-Means, EM-Algorithm, Agglomerative Clustering, DBScan + Silhouette Score, Calinski-Harabasz, Davies-Bouldin
    - снижение размерности через t-distributed stochastic neighbor embedding > отбор гиперпараметров через Optuna
      - K-Means, EM-Algorithm, Agglomerative Clustering + Silhouette Score, Calinski-Harabasz, Davies-Bouldin
-       > лучшие внутренние показатели с 7 кластерами, больше соответствуют группам, предложенным RFM
        
 6. Построение Моделей Классификации и Анализ Качества с F1-Score
   - разделение данных для модели: выделение обучаемой и тестовой частей
@@ -95,15 +94,15 @@ _Основные Задачи_:
 
 :arrow_up:[to Table of Contents](README.md#оглавление)
 
+<img width="978" alt="Screenshot 2025-01-22 at 22 31 50" src="https://github.com/user-attachments/assets/5c4bb7aa-4164-4640-9c5c-fb745e9160c4" />
 
 ### Результат
 
-Лучшие результаты внутренние мер на данных с PCA с 3 кластерами, Лучшие результаты внутренние мер на данных с t-SNE с 7 кластерами, больше соответствуют группам, предложенным RFM.
+Лучшие результаты внутренние мер на данных с PCA с 3 кластерами, лучшие результаты внутренние мер на данных с t-SNE от 5-7 кластеров, финальная модель построена на 7 кластеров, что больше соответствуют группам, предложенным RFM.
 
 Результаты моделей классификации:
 
-    - Random Forest: F1-Score = 0.99
-    - Gradient Boosting: F1-Score = 0.99
-
+    - Random Forest: F1-Score = 0.990
+    - Gradient Boosting: F1-Score = 0.991
 
 :arrow_up:[to Table of Contents](README.md#оглавление)
