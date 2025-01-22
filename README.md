@@ -94,7 +94,6 @@ _Основные Задачи_:
 
 :arrow_up:[to Table of Contents](README.md#оглавление)
 
-<img width="978" alt="Screenshot 2025-01-22 at 22 31 50" src="https://github.com/user-attachments/assets/5c4bb7aa-4164-4640-9c5c-fb745e9160c4" />
 
 ### Результат
 
@@ -104,5 +103,7 @@ _Основные Задачи_:
 
     - Random Forest: F1-Score = 0.990
     - Gradient Boosting: F1-Score = 0.991
+
+<img width="978" alt="Screenshot 2025-01-22 at 22 31 50" src="https://github.com/user-attachments/assets/5c4bb7aa-4164-4640-9c5c-fb745e9160c4" />
 
 :arrow_up:[to Table of Contents](README.md#оглавление)
